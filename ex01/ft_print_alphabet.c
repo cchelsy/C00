@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: canastha <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/08 19:16:47 by canastha          #+#    #+#             */
+/*   Updated: 2026/07/08 19:19:42 by canastha         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 #include <unistd.h>
 
-void ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-	char c;
+	char	c;
+
 	c = 'a';
 	while (c <= 'z')
 	{
@@ -10,4 +22,3 @@ void ft_print_alphabet(void)
 		c++;
 	}
 }
-
